@@ -1,0 +1,251 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #94ccd7, rgb(212, 222, 169),#78b9d2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+
+.login-container {
+  background: linear-gradient(to right, #ba98ce, #5ab3cb);
+  padding: 80px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 500px;
+}
+
+
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 13px;
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+
+label {
+  font-weight: 700;
+  font-size: 20px;
+  min-width: 50px;
+  text-align: 200;
+}
+
+
+input {
+  flex: 1;
+  padding: 13px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+
+.pass-input-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.pass-input-div svg {
+  cursor: pointer;
+  color: #555;
+}
+
+
+.login-btn {
+  width: 40%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  background: #4facfe;
+  color: white;
+  margin-left: 180px;
+}
+
+.login-btn:hover {
+  background: #0f0f10;
+  
+}
+
+
+@media (max-width: 600px) {
+  .login-container {
+    width: 90%;
+  }
+  .inline-form {
+    flex-direction: column;
+  }
+}
+
+.login-logo img {
+  width: 350px; 
+  height: 150px; 
+  display: block;
+  margin: 0 auto 1px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #93abb0, rgb(216, 223, 181),#8ad5f3);
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  width: 1000px;
+  margin: 50px auto;
+  background: linear-gradient(to right, #d4adea, #74c4da);
+  padding: 1500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  height: 1000px;
+}
+
+h1 {
+  text-align: center;
+  color: #0a0a0a;
+  font-size: xx-large;
+}
+
+h4{
+  text-align: center;
+  color: #100e0e;
+  font-style: italic;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filter-options select, .filter-options button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-btn {
+  display: block;
+  margin: 14px auto;
+  padding: 20px 20px;
+  background: #181217;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #660c2a;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to right, #e4e197, #ca729d);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal label {
+  margin-bottom: 8px;
+}
+
+.modal input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal button {
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.expense-table th, .expense-table td {
+  border: 1px solid #ddd;
+  padding: 35px;
+  text-align: center;
+}
+
+.expense-table th {
+  background: linear-gradient(to right, hsl(334, 39%, 70%), #3e8db5);
+  color: rgb(3, 3, 3);
+  
+}
+
+.expense-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.expense-table button {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.expense-table button:first-child {
+  background-color: #ffc107;
+}
+
+.expense-table button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.logout-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 25px;
+  background: #16180b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #c82333;
+}
+h3{
+  text-align: center;
+}
+
