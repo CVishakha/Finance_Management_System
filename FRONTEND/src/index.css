@@ -6,8 +6,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 400px;
-  
+
 }
 
 
@@ -18,6 +17,8 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   width: 500px;
+  margin-top:0%;
+  margin-bottom: 300px;
 }
 
 
@@ -108,10 +109,12 @@ body {
   margin-top: 200px;
   padding: 0;
   text-align: center;
+  margin-top: 400px;
+  
 }
 
 .dashboard-container {
-  width: 1000px;
+  width: 1100px;
   margin: 50px auto;
   background: linear-gradient(to right, #d4adea, #74c4da);
   padding: 1500px;
