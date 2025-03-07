@@ -2,11 +2,12 @@
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(to right, #94ccd7, rgb(212, 222, 169),#78b9d2);
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin-top: 400px;
+  
 }
 
 
@@ -104,8 +105,9 @@ input {
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #93abb0, rgb(216, 223, 181),#8ad5f3);
-  margin: 0;
+  margin-top: 200px;
   padding: 0;
+  text-align: center;
 }
 
 .dashboard-container {
